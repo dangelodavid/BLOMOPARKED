@@ -614,21 +614,6 @@ for (cond in conds) {
 
 
 ## 07. Machine Learning Model for Pre-clinical Stage Prediction ----
-library(caret)
-library(randomForest)
-library(e1071)
-library(glmnet)
-library(gbm)
-library(class)
-library(klaR)
-library(MASS)
-library(kernlab)
-library(nnet)
-library(pROC)
-library(gridExtra)
-library(dplyr)
-library(tidyr)
-library(ggplot2)
 
 # Setup parallel processing
 cl <- makeCluster(16)
